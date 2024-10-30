@@ -1,0 +1,782 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+body {
+  background: #1f242d;
+}
+.container {
+  width: 1240px;
+  padding: 20px;
+  margin: 0 auto;
+}
+.none {
+  display: none;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo > h2 {
+  color: white;
+}
+.link {
+  gap: 20px;
+  display: flex;
+}
+.hero {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+.left {
+  width: 50%;
+  color: white;
+  gap: 15px;
+  display: flex;
+  align-items: start;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.btn {
+  padding: 10px 30px;
+  border-radius: 15px;
+  background: aqua;
+  box-shadow: 0px 0px 5px 0 white;
+  border: none;
+}
+.left > h3 {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+}
+.left > h1 {
+  font-family: Poppins;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 72.8px;
+  text-align: left;
+}
+.left > h2 {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+}
+.left > h2 > span {
+  font-family: Poppins;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 48px;
+  text-align: left;
+  color: aqua;
+}
+.main {
+  padding-bottom: 50px;
+  gap: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+}
+.main > h2 {
+  font-family: Poppins;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 67.5px;
+  text-align: center;
+  color: white;
+}
+.main > h2 > span {
+  font-family: Poppins;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 67.5px;
+  text-align: center;
+  color: aqua;
+}
+.cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.card {
+  width: 380px;
+  height: 369px;
+  border: 1px white solid;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  padding: 20px;
+}
+.card > strong {
+  font-family: Poppins;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 39px;
+  text-align: center;
+}
+.card > p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+.images {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.images > img {
+  width: 376px;
+  height: 251px;
+  border-radius: 18px;
+}
+.project {
+  background: #323946;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.big {
+  padding-bottom: 20px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.big > h2 {
+  font-family: Poppins;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 67.5px;
+  text-align: center;
+  color: white;
+}
+.big > h2 > span {
+  font-family: Poppins;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 67.5px;
+  text-align: center;
+
+  color: aqua;
+}
+.form {
+  width: 100%;
+  gap: 20px;
+
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.form > h2 {
+  font-family: Poppins;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 67.5px;
+  text-align: center;
+  color: white;
+}
+.form > h2 > span {
+  font-family: Poppins;
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 67.5px;
+  text-align: center;
+  color: aqua;
+}
+.inputs {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+input {
+  width: 343px;
+  height: 55px;
+  background: #323946;
+  color: gray;
+  border-radius: 8px;
+  border: none;
+  padding-left: 20px;
+}
+footer {
+  width: 100%;
+  height: 50px;
+  background: #323946;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.foot {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.drop {
+  width: 30px;
+  height: 30px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: aqua;
+}
+
+@media (max-width: 768px) {
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  body {
+    background: #1f242d;
+  }
+  .container {
+    width: 768px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  .none {
+    display: flex;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo > h2 {
+    color: white;
+  }
+  .link {
+    gap: 20px;
+    display: none;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .left {
+    width: 50%;
+    color: white;
+    gap: 15px;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .btn {
+    padding: 10px 30px;
+    border-radius: 15px;
+    background: aqua;
+    box-shadow: 0px 0px 5px 0 white;
+    border: none;
+  }
+  .left > h3 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+  }
+  .left > h1 {
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 72.8px;
+    text-align: left;
+  }
+  .left > h2 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+  }
+  .left > h2 > span {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: aqua;
+  }
+  .main {
+    padding-bottom: 50px;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  .main > h2 {
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    text-align: center;
+    color: white;
+  }
+  .main > h2 > span {
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    text-align: center;
+    color: aqua;
+  }
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+  }
+  .card {
+    width: 340px;
+    height: 369px;
+    border: 1px white solid;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding: 20px;
+  }
+  .card:last-child {
+    width: 100%;
+  }
+  .card > strong {
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: center;
+  }
+  .card > p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+  }
+  .images {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .images > img {
+    width: 340px;
+    height: 251px;
+    border-radius: 18px;
+  }
+  .project {
+    background: #323946;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .big {
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .big > h2 {
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    text-align: center;
+    color: white;
+  }
+  .big > h2 > span {
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    text-align: center;
+
+    color: aqua;
+  }
+  .form {
+    width: 100%;
+    gap: 20px;
+
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .form > h2 {
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    text-align: center;
+    color: white;
+  }
+  .form > h2 > span {
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    text-align: center;
+    color: aqua;
+  }
+  .inputs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  input {
+    width: 300px;
+    height: 55px;
+    background: #323946;
+    color: gray;
+    border-radius: 8px;
+    border: none;
+    padding-left: 20px;
+  }
+
+  footer {
+    width: 100%;
+    height: 50px;
+    background: #323946;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .drop {
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: aqua;
+  }
+}
+@media (max-width: 390px) {
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  body {
+    background: #1f242d;
+  }
+  .container {
+    width: 390px;
+    padding: 20px;
+    margin: 0 auto;
+  }
+  .none {
+    display: flex;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo > h2 {
+    color: white;
+  }
+  .link {
+    gap: 20px;
+    display: none;
+  }
+  .hero {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .left {
+    width: 50%;
+    color: white;
+    gap: 15px;
+    display: flex;
+    align-items: start;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  .btn {
+    padding: 10px 30px;
+    border-radius: 15px;
+    background: aqua;
+    box-shadow: 0px 0px 5px 0 white;
+    border: none;
+  }
+  .left > h3 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+  }
+  .left > h1 {
+    font-family: Poppins;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 72.8px;
+    text-align: left;
+  }
+  .left > h2 {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+  }
+  .left > h2 > span {
+    font-family: Poppins;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: left;
+    color: aqua;
+  }
+  .main {
+    padding-bottom: 50px;
+    gap: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+  }
+  .main > h2 {
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    text-align: center;
+    color: white;
+  }
+  .main > h2 > span {
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    text-align: center;
+    color: aqua;
+  }
+  .cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    padding: 10px;
+    gap: 10px;
+  }
+  .card {
+    width: 340px;
+    height: 369px;
+    border: 1px white solid;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding: 20px;
+  }
+  /* .card:last-child {
+    width: 100%;
+  } */
+  .card > strong {
+    font-family: Poppins;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 39px;
+    text-align: center;
+  }
+  .card > p {
+    font-family: Poppins;
+    font-size: 16px;font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+  }
+  .images {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  .images > img {
+    width: 340px;
+    height: 251px;
+    border-radius: 18px;
+  }
+  .project {
+    background: #323946;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  .big {
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  .big > h2 {
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    text-align: center;
+    color: white;
+  }
+  .big > h2 > span {
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    text-align: center;
+
+    color: aqua;
+  }
+  .form {
+    width: 100%;
+    gap: 20px;
+
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .form > h2 {
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    text-align: center;
+    color: white;
+  }
+  .form > h2 > span {
+    font-family: Poppins;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 67.5px;
+    text-align: center;
+    color: aqua;
+  }
+  .inputs {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  input {
+    width: 300px;
+    height: 55px;
+    background: #323946;
+    color: gray;
+    border-radius: 8px;
+    border: none;
+    padding-left: 20px;
+  }
+
+  footer {
+    width: 100%;
+    height: 50px;
+    background: #323946;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .foot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .drop {
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: aqua;
+  }
+}
